@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+                name="viewModel"
+                type="com.project.myung.droidnight.fragments.ui.main.MainFragmentViewModel"/>
+    </data>
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+                android:background="@color/black"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:id="@+id/main"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <ImageView
+                    android:layout_marginTop="50dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/droidnight"/>
+
+            <TextView
+                    android:gravity="center"
+                    android:id="@+id/body"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:textColor="@color/text"
+                    android:textStyle="bold"
+                    android:text="@string/body_info"
+                    android:textSize="18sp"/>
+
+            <com.project.myung.droidnight.utils.CustomMapView
+                    android:id="@+id/map"
+                    android:layout_marginTop="30dp"
+                    android:name="com.google.android.gms.maps.MapFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    app:initMap="@{viewModel.mMapLatLng}"/>
+
+            <TextView
+                    android:id="@+id/btn_find"
+                    android:layout_marginTop="24dp"
+                    android:text="@string/find_load"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:paddingTop="12dp"
+                    android:paddingBottom="12dp"
+                    android:paddingLeft="42dp"
+                    android:paddingRight="42dp"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:backgroundTint="@color/text"
+                    android:background="@drawable/btn_circle"/>
+
+            <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/image1"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/info_title"
+                    android:textColor="@color/text"
+                    android:textStyle="bold"
+                    android:textSize="18sp"/>
+
+            <TextView
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:text="@string/info_text"
+                    android:textColor="@color/text"
+                    android:textSize="12sp"/>
+
+            <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/image2"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/notice_title"
+                    android:textColor="@color/text"
+                    android:textStyle="bold"
+                    android:textSize="18sp"/>
+
+            <TextView
+                    android:layout_marginBottom="80dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:text="@string/notice_text"
+                    android:textColor="@color/text"
+                    android:textSize="12sp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</layout>

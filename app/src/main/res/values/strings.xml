@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Droid Night</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="title_name">Droid Night</string>
+    <string name="find_load">길찾기</string>
+    <string name="body_info">드로이드 나이트 공지\n
+        내용:밤새 파티!!\n
+        장소:목동역(예정)\n
+        날짜:7월 6일 스터디 끝나고~다음날 아침까지
+    </string>
+    <string name="info_title">시설 안내</string>
+    <string name="info_text">1. FullHD 빔프로젝터, 120인치 스크린 (TV시청 및 컴퓨터로 연결된 영화시청 가능)\n\n
+        2. 스카이레이크 I5 고사양 컴퓨터, 5G GIGA WIFI\n\n
+        3. 10종 이상의 다양한 보드게임 및 1.2M 포켓볼 당구대\n\n
+        4. 12인이상 이용가능한 파티테이블, 12개의 의자, 바테이블, 4개의 바체어\n\n
+        5. 노래방기기, 미러볼, 마이크 2개, 4채널 앰프, 스피커 4개, 블루투스스피커\n\n
+        6. 대형 쇼케이스 냉장고와 냉난방기, 가스버너, 전자레인지\n\n
+        7. 인생샷을 위한 Ballpool Room ( 5000개의 볼풀과 홍학튜브)\n\n
+        8. 휴식을 위한 Family Rest Room ( 3M 넓이의 패밀리 베드 )</string>
+
+    <string name="notice_title">주의사항</string>
+    <string name="notice_text">1. 퇴실시 내부조명 및 에어컨, 난방기, 프로젝터 전원을 꼭 꺼주시기 바랍니다\n\n
+        2. 기물파손, 분실시 구매가로 청구되어집니다. 고객 변상(100%)\n\n
+        3. 미성년자는 낮타임 이용 가능하며 올타임의 경우 보호자 동반 하에만 이용가능합니다.\n\n
+        4. 퇴실전 정리정돈 및 분리수거는 필수입니다. 청소보증금은 반환기준 충족 시 100% 환불되는 금액입니다.\n\n
+        5. 예약 기준인원 10명 (초과 시 1인당 추가요금 1만원)\n\n
+        6. 예약 시간 외 이용 시 추가금액이 발생합니다.\n\n
+        7. 간단한 세면을 위한 세면실은 내부에 있으며, 화장실은 외부(1층)에 있습니다.\n\n
+        8. 파티룸 밖에서는 지나친 고성방가를 자제해주시기 바랍니다.\n\n
+        9. 주차장 이용은 바로앞 목동로데오 거리 공영주차장 이용 부탁드립니다.(50M 이내)</string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>
